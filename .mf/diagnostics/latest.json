@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"npx tsc --project C:\\\\Users\\\\ricar\\\\OneDrive\\\\Escritorio\\\\PROYECTOS\\\\PERSONALES\\\\FRONT\\\\microfrontend-pokemon\\\\detail\\\\node_modules\\\\.federation\\\\tsconfig.2c25467b57b14d89b9b8f3d54380d517.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "npx tsc --project C:\\Users\\ricar\\OneDrive\\Escritorio\\PROYECTOS\\PERSONALES\\FRONT\\microfrontend-pokemon\\detail\\node_modules\\.federation\\tsconfig.2c25467b57b14d89b9b8f3d54380d517.json"
+    },
+    "timestamp": 1782091194660
+  }
+}

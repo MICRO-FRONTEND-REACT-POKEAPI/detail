@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs cat)",
+      "Bash(cat detail/module-federation.config.ts)",
+      "Bash(cat detail/vite.config.ts)",
+      "Bash(cat host/module-federation.config.ts)",
+      "Bash(cat host/vite.config.ts)",
+      "Bash(node -e \"console.log\\(require\\('react/package.json'\\).version\\)\")",
+      "Bash(curl -s \"http://localhost:3001/@id/__x00__virtual:mf:__mfe_internal__mfDetail__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js\")",
+      "Bash(curl -s \"http://localhost:3001/@id/__x00__virtual:mf:__mfe_internal__mfDetail__prebuild__react_mf_1_compiler_mf_2_runtime__prebuild__.js\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)",
+      "Read(//c/Users/ricar/OneDrive/Escritorio/PROYECTOS/PERSONALES/FRONT/microfrontend-pokemon/**)",
+      "Bash(pnpm lint *)",
+      "Skill(run)",
+      "Bash(pnpm dev *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3002)"
+    ]
+  }
+}
